@@ -78,7 +78,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: black;
+    background: blue;
     min-height: 50vh;
     color: white;
 }
