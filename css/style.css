@@ -50,16 +50,15 @@ nav a {
     display: block;
     padding: 1em;
 }
-/* MAIN */
-main {
-    padding: 0 0 3em 0;
-    min-height: 80vh;
+
+/* FOOTER */
+footer {
+    border-top: 1px solid #ddd;
+    max-width: 1000px;
+    margin: 0 auto;
 }
-
-/* SECTIONS */
-
-section {
-    padding: 3em 1em;
+footer nav ul {
+    justify-content: center;
 }
 
 /* MAIN */
