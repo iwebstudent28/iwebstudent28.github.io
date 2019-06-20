@@ -80,7 +80,7 @@ section {
     background: blue;
     min-height: 50vh;
     color: white;
-}
+}ss
 
 .hero h2 {
     font-size: 3em;
@@ -90,4 +90,18 @@ section {
 
 .hero p {
     margin: 1em auto;
+}
+/* Lists */
+.lists {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+}
+
+@media (max-width:767px) {
+    .lists {
+        grid-template-columns: 1fr 1fr;
+    }
 }
