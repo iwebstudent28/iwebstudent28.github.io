@@ -107,6 +107,6 @@ section {
 }
 /* SUB PAGES */
 .page-sub .hero {
-    background: #888;
+    background: blue;
     min-height: 30vh;
 }
